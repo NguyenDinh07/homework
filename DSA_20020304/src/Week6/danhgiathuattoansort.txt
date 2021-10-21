@@ -1,0 +1,92 @@
+Khảo sát các hàm sort :
+(1) các file dữ liệu test 
+(2) dữ liệu sinh ngẫu nhiên
+(3) dữ liệu đã được sắp xếp xuôi 
+(4) dữ liệu sắp xếp ngược
+(5) dữ liệu toàn các giá trị bằng nhau
+**Quicksort (ko Shuffle):
+độ phức tạp : 
+Độ  phức tạp thuật toán của quick sort
+
+Trường hợp tốt: O(nlog(n))
+Trung bình: O(nlog(n))
+Trường hợp xấu: O(n^2)
+Không gian bộ nhớ sử dụng: O(log(n))
+quick sort phụ thuộc vào thứ tự ban đầu của dữ liệu. Ta hãy xem xét trường hợp tốt nhất và 
+trường hợp tồi nhất - đó chắc chắn là các trường hợp đặc biệt (outlier). 
+++)1: các file dữ liệu
+Với file 32Kints.txt : trung bình thời gian chạy của quick sort là 76.883s(3 lần chạy)(32k phần tử
+Với file 16Kints.txt : trung bình thời gian chạy của quick sort là 15,107(3 lần chạy)(16k phần tử)
+Với file 8Kints.txt : trung bình thời gian chạy của quick sort là 3.464s(3 lần chạy)(8k phần tử)Với file 6Kints.txt : trung bình thời gian chạy của insertion sort là 0.917s(3 lần chạy)(6k phần tử)
+Với file 4Kints.txt : trung bình thời gian chạy của quick sort là 0.841s(3 lần chạy)(4k phần tử)
+Với file 2Kints.txt : trung bình thời gian chạy của quick sort là 0.288s(3 lần chạy)(2k phần tử)
+2: các dữ liệu ngẫu nhiên
+3: dữ liệu sắp xếp xuôi :(test với 1001 phần tử từ 0-1000)
+Lần 1 : 0,004s
+lần 2 : 0,003s
+lần 3 : 0,004s
+trung bình : 0,0036s
+4: dữ liệu sắp xếp ngược (test với 1001 phần tử từ 1000-0)
+Lần 1 : 0,005s
+lần 2 : 0,005s
+lần 3 : 0,006s
+trung bình : 0,0053s
+5 : các giá trị bằng nhau(1001 số 5)
+Lần 1 : 0,004s
+lần 2 : 0,003s
+lần 3 : 0,005s
+trung bình : 0,004s
+
+Quicksort(co shuffle)
+++)1: các file dữ liệu
+Với file 32Kints.txt : trung bình thời gian chạy của quick sort là 76.883s(3 lần chạy)(32k phần tử
+Với file 16Kints.txt : trung bình thời gian chạy của quick sort là 15,107(3 lần chạy)(16k phần tử)
+Với file 8Kints.txt : trung bình thời gian chạy của quick sort là 3.457s(3 lần chạy)(8k phần tử)Với file 6Kints.txt : trung bình thời gian chạy của insertion sort là 0.917s(3 lần chạy)(6k phần tử)
+Với file 4Kints.txt : trung bình thời gian chạy của quick sort là 0.864s(3 lần chạy)(4k phần tử)
+Với file 2Kints.txt : trung bình thời gian chạy của quick sort là 0.292s(3 lần chạy)(2k phần tử)
+2: các dữ liệu ngẫu nhiên
+3: dữ liệu sắp xếp xuôi :(test với 1001 phần tử từ 0-1000)
+Lần 1 : 0,004s
+lần 2 : 0,003s
+lần 3 : 0,004s
+trung bình : 0,0036s
+4: dữ liệu sắp xếp ngược (test với 1001 phần tử từ 1000-0)
+Lần 1 : 0,005s
+lần 2 : 0,005s
+lần 3 : 0,006s
+trung bình : 0,0053s
+5 : các giá trị bằng nhau(1001 số 5)
+Lần 1 : 0,004s
+lần 2 : 0,003s
+lần 3 : 0,005s
+trung bình : 0,004s	
+
+**Insertion Sort:
+Mô hình thuật toán: Phương pháp tiếp cận gia tăng
+
+Sắp xếp tại chỗ: Có
+
+Ổn định: Có
+
+Trực tuyến: Có
+++)1: các file dữ liệu
+Với file 32Kints.txt : trung bình thời gian chạy của insertion sort là 69,484(3 lần chạy)(32k phần tử
+Với file 16Kints.txt : trung bình thời gian chạy của insertion sort là 14.448(3 lần chạy)(16k phần tử)
+Với file 8Kints.txt : trung bình thời gian chạy của insertion sort là 3.478s(3 lần chạy)(8k phần tử)Với file 6Kints.txt : trung bình thời gian chạy của insertion sort là 0.917s(3 lần chạy)(6k phần tử)
+Với file 4Kints.txt : trung bình thời gian chạy của insertion sort là 0.939s(3 lần chạy)(4k phần tử)
+Với file 2Kints.txt : trung bình thời gian chạy của insertion sort là 0.334s(3 lần chạy)(2k phần tử)
+3: dữ liệu sắp xếp xuôi :(test với 1001 phần tử từ 0-1000)
+Lần 1 : 0,006s
+lần 2 : 0,007s
+lần 3 : 0,006s
+trung bình : 0,0063s
+++)4:dữ liệu sắp xếp ngược (test với 1001 phần tử từ 1000-0)
+Lần 1 : 0,024s
+lần 2 : 0,016s
+lần 3 : 0,017s 
+trung binh : 0.019s
+5 : các giá trị bằng nhau(1001 số 5)
+Lần 1 : 0,001s
+lần 2 : 0,002s
+lần 3 : 0,001s
+trung bình : 0,0013s
