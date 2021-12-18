@@ -1,0 +1,4 @@
+Selection sort: 
+thời gian chạy: O(N^2) 
+
+ ổn định qua tất cả các trường hợp không có trường hợp tồi nhất tốt nhất
